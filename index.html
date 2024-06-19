@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form pengajuan KTP</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="input" method="post">
+        <h2>Form Pengajuan KTP</h2>
+        <div class="nomor">
+          <label for="nomor">Nomor Pendaftaran:</label><br />
+          <input type="text" id="nomor" name="nomor" required /><br />
+        </div>
+
+        <div class="nama">
+          <label for="nama">Nama:</label><br />
+          <input type="text" id="nama" name="nama" required /><br />
+        </div>
+
+        <div class="alama">
+          <label for="alamat">Alamat:</label><br />
+          <input type="text" id="alamat" name="alamat" required /><br />
+        </div>
+
+        <div class="kota">
+          <label for="kota">Kota:</label><br />
+          <input type="text" id="kota" name="kota" required /><br />
+        </div>
+
+        <div class="perkerjaan">
+          <label for="pekerjaan">Pekerjaan:</label><br />
+          <input type="text" id="pekerjaan" name="pekerjaan" required /><br />
+        </div>
+
+        <div class="kelamin">
+          <label for="kelamin">Jenis Kelamin:</label><br />
+          <select name="kelamin" id="kelamin">
+            <option value="Laki">Laki-laki</option>
+            <option value="cwe">Perempuan</option></select
+          ><br />
+        </div>
+
+        <div class="ttl">
+          <label for="ttl">Tempat Lahir:</label><br />
+          <input type="text" id="ttl" name="ttl" required /><br />
+        </div>
+
+        <div class="tl">
+          <label for="tl">Tempat Lahir:</label><br />
+          <input type="date" id="rl" name="tl" required /><br />
+        </div>
+
+        <div class="berkas">
+          <label for="berkas">Kelengkapan Berkas:</label><br />
+          <input type="checkbox" id="berkas" name="berkas" required /><br />
+        </div>
+
+        <div class="kk">
+          <label for="kk">FC KK:</label><br />
+          <input type="checkbox" id="kk" name="kk" required /><br />
+        </div>
+
+        <div class="foto">
+          <label for="foto">Pas Photo:</label><br />
+          <input type="checkbox" id="foto" name="foto" required /><br />
+        </div>
+
+        <div class="surat">
+          <label for="surat">Surat Pengiriman:</label><br />
+          <input type="checkbox" id="surat" name="surat" required /><br />
+        </div>
+
+        <div class="srt">
+          <label for="srt">Surat Domisili:</label><br />
+          <input type="file" id="srt" name="srt" required /><br />
+        </div>
+
+        <button type="submit">submit</button>
+        <button type="cancel">cancel</button>
+      </form>
+    </div>
+  </body>
+</html>
